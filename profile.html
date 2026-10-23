@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог — Профиль</title>
+    <link rel="stylesheet" href="assets/css/profile.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">dark<span>store</span></a>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="cart.html">Корзина</a></li>
+                <li><a href="profile.html" class="active">Профиль</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="profile-header">
+            <div class="avatar">👤</div>
+            <div>
+                <h1>Алексей Смирнов</h1>
+                <p>alexey@example.com · с нами с марта 2024</p>
+            </div>
+        </div>
+
+        <div class="info-block">
+            <h3>Личные данные</h3>
+            <p style="color:var(--text-muted);">Телефон: +7 (900) 123-45-67<br>
+                Адрес доставки: Москва, ул. Тверская, 12, кв. 4</p>
+        </div>
+
+        <div class="info-block">
+            <h3>Последние заказы</h3>
+            <div class="order-row">
+                <span>Заказ № 1042 · 15 июня 2025</span>
+                <span class="status">Доставлен</span>
+            </div>
+            <div class="order-row">
+                <span>Заказ № 1017 · 2 июня 2025</span>
+                <span class="status">Доставлен</span>
+            </div>
+            <div class="order-row">
+                <span>Заказ № 998 · 20 мая 2025</span>
+                <span class="status">Доставлен</span>
+            </div>
+        </div>
+
+        <div class="info-block">
+            <h3>Настройки</h3>
+            <p style="color:var(--text-muted);">Уведомления по email, способ оплаты по умолчанию — карта. <a href="#"
+                    style="color:var(--accent);"
+                    onclick="event.preventDefault(); alert('Настройки — демо.');">Изменить</a></p>
+        </div>
+    </main>
+    <footer>
+        <p>© 2025 darkstore. Все права защищены.</p>
+        <p style="margin-top:8px;">
+            <a href="about.html">О нас</a>
+            <a href="contacts.html">Контакты</a>
+            <a href="catalog.html">Каталог</a>
+        </p>
+    </footer>
+</body>
+
+</html>

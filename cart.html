@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Каталог — Корзина</title>
+  <link rel="stylesheet" href="assets/css/cart.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="index.html" class="logo">dark<span>store</span></a>
+      <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="catalog.html">Каталог</a></li>
+        <li><a href="cart.html" class="active">Корзина</a></li>
+        <li><a href="profile.html">Профиль</a></li>
+        <li><a href="about.html">О нас</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Корзина</h1>
+    <p class="subtitle">Товары, которые вы выбрали. Количество можно изменить.</p>
+
+    <div class="cart-item">
+      <div class="cart-item-img">Фото</div>
+      <div class="cart-item-info">
+        <h4>Настольная лампа</h4>
+        <div class="price">2 490 ₽</div>
+      </div>
+      <div class="qty">
+        <button>−</button>
+        <span>1</span>
+        <button>+</button>
+      </div>
+    </div>
+
+    <div class="cart-item">
+      <div class="cart-item-img">Фото</div>
+      <div class="cart-item-info">
+        <h4>Керамическая кружка</h4>
+        <div class="price">890 ₽</div>
+      </div>
+      <div class="qty">
+        <button>−</button>
+        <span>2</span>
+        <button>+</button>
+      </div>
+    </div>
+
+    <div class="cart-item">
+      <div class="cart-item-img">Фото</div>
+      <div class="cart-item-info">
+        <h4>Блокнот A5</h4>
+        <div class="price">650 ₽</div>
+      </div>
+      <div class="qty">
+        <button>−</button>
+        <span>1</span>
+        <button>+</button>
+      </div>
+    </div>
+
+    <div class="cart-total">
+      <div>
+        <div style="color:var(--text-muted); font-size:0.9rem;">Итого</div>
+        <div class="total-sum">4 920 ₽</div>
+      </div>
+      <a href="#" class="btn" onclick="event.preventDefault(); alert('Оформление заказа — демо.');">Оформить заказ</a>
+    </div>
+  </main>
+  <footer>
+    <p>© 2025 darkstore. Все права защищены.</p>
+    <p style="margin-top:8px;">
+      <a href="about.html">О нас</a>
+      <a href="contacts.html">Контакты</a>
+      <a href="catalog.html">Каталог</a>
+    </p>
+  </footer>
+</body>
+
+</html>

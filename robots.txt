@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Служебные страницы не индексируем
+Disallow: /cart.html
+Disallow: /profile.html
+
+# Небольшая задержка для вежливости к серверу
+Crawl-delay: 1
+
+Sitemap: https://dark-store.ru/sitemap.xml
